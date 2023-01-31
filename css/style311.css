@@ -1,0 +1,691 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: corbel;
+    background-image: url(../image/cover.jpg);
+    background-position:center;
+    background-size: cover;
+    
+}
+
+h6
+{
+    font-size: 11px;
+    margin-top: -65;
+    margin-left: 100;
+}
+
+/*navbar area*/
+
+.navbar
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.navbar-list ul
+{
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+
+.navbar-list li
+{
+    list-style: none;
+}
+
+.navbar-list li a
+{
+    text-decoration: none;
+    color: #c0a290;
+    padding: 35px;
+    display: block;
+    transition: 0.1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-list li a:hover
+{
+   background-color: #AA6F5D;
+   width: auto;
+   height: auto;
+}
+
+/* navabar end*/
+
+/* contacts me start */
+
+.button
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    bottom: 28%;
+    right: 35%;
+}
+
+.button a i
+{
+    font-size: 35px;
+    color: rgb(176, 138, 2);
+    transition: 0.3s;
+}
+
+.button a i:hover
+{
+    color: rgb(99, 77, 1);
+}
+
+.button1
+{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    align-items: center;
+    bottom: 20%;
+    right: 35%;
+}
+
+.button1 a i
+{
+    font-size: 35px;
+    color: rgb(176, 138, 2);
+    transition: 0.3s;
+}
+
+.button1 a i:hover
+{
+    color: rgb(99, 77, 1);
+}
+
+.button2
+{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    align-items: center;
+    bottom: 11.5%;
+    right: 35%;
+}
+
+.button2 a i
+{
+    font-size: 35px;
+    color: rgb(176, 138, 2);
+    transition: 0.3s;
+}
+
+.button2 a i:hover
+{
+    color: rgb(99, 77, 1);
+}
+/* contacts me end */
+
+/*nama logo */
+
+.nama-aku
+{
+    text-decoration: none;
+    color: #6b443e;
+    font-size: 60;
+    font-weight: bold;
+    text-shadow: 1px 2px 1px black;
+    margin: auto;
+    padding-left: 2%;
+    font-family: Creamy Chocolate;
+}
+
+/*nama logo end*/
+
+/* HOME WEBSITE start*/
+
+.home-tab
+{
+    height: 420px;
+    width: 100%;
+    font-size: 19px;
+}
+
+.home-text-box
+{
+    
+    height: 420px;
+    width: 100%;
+    font-size: 20px;
+    
+}
+
+.im-ainnur-text
+{   
+    padding-left: 125px;
+    
+    padding-top: 100px;  
+     
+}
+
+span
+{
+    color:#ed9121;
+}
+
+.im-ainnur-text h1
+{
+    text-align: left;
+    font-family: hey comic;
+    color: #90604c;
+    text-shadow: 3px 1px 2px black;
+}
+
+.im-ainnur-text p
+{
+    text-align:left;
+    color: #90604c;
+    line-height: 27px;
+    font-family: candy beans;
+}
+
+.home-image
+{
+
+   width: 20%;
+   position:absolute;
+   right: 6%;
+   top: 20%;
+   bottom: 70%;
+   border-radius: 50px;
+
+}
+
+/* HOME WEBSITE end*/
+
+/* EXPERIENCES WEBSITE start*/
+
+.experiences-tab
+{
+    height: 420px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.button
+{
+    display: inline-block;
+    position: relative;
+    color: #c0a290;
+    background: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    z-index: 1;
+    transition: 0s;
+    text-decoration: none;
+}
+.experiences-image
+{
+    align-items: center;
+   width: 10%;
+   position:absolute;
+   right: 30%;
+   top: 11%;
+   border-radius: 5px;
+}
+
+.experiences-image1
+{
+    align-items: center;
+   width: 10%;
+   position:absolute;
+   right: 18%;
+   top: 11%;
+   border-radius: 5px;
+}
+
+.experiences-image2
+{
+    align-items: center;
+   width: 10%;
+   position:absolute;
+   right: 30%;
+   top: 55%;
+   border-radius: 5px;
+}
+
+.experiences-image3
+{
+    align-items: center;
+   width: 10%;
+   position:absolute;
+   right: 18%;
+   top: 55%;
+   bottom: 70%;
+   border-radius: 5px;
+}
+
+.experiences-text
+{   
+    padding-left: 125px;
+    padding-bottom: 67px;
+    padding-top: 100px;  
+}
+
+.experiences-text h1
+{
+    text-align: left;
+    font-family: hey comic;
+    color: #90604c;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: auto;
+}
+
+/* EXPERIENCES WEBSITE end*/
+
+
+/* EDUCATIONS WEBSITE start*/
+
+.education-tab
+{
+    height: 420px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.education-text h1
+{
+    text-align: center;
+    font-family: hey comic;
+    color: #90604c;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20;
+}
+
+table,tr,th
+{
+    text-decoration: none;
+    border-collapse: collapse;
+    border: 1px solid black;
+    box-sizing: 50px;
+    text-align: center;
+    height: 5vh;    
+}
+
+tr
+{
+    background-color: bisque;
+    text-decoration:none ;
+}
+
+th
+{
+    width: 20%;
+    background-color: #9a7b4f;
+    text-decoration:none ;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #b98e77;
+    text-decoration:none ;
+}
+
+
+td:hover
+{
+    background-color: #90604c;
+    text-decoration:none ;
+}
+
+.picedu-box
+{
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 10;
+    padding-left: 270;
+}
+.gallery-edu
+{
+    margin: 12px;
+    float: left;
+    width: 235.5px;
+}
+
+.gallery-edu img
+{
+    width: 55%;
+    height: auto;
+    
+}
+
+.gallery-edu1
+{
+    
+    margin: 2px;
+    float: left;
+    width: 235.5px;
+}
+
+.gallery-edu1 img
+{
+    width: 60%;
+    height: auto;
+    
+}
+
+.gallery-edu4
+{
+    
+    margin: 30px;
+    float: left;
+    width: 235.5px;
+}
+
+.gallery-edu4 img
+{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+/* EDUCATIONS WEBSITE end*/
+
+/* MY LIFE WEBSITE start*/
+
+.mylife-tab
+{
+    height: 420px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.mylife-text h1
+{
+    text-align: center;
+    font-family: corbel;
+    color: #90604c;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 40;
+}
+
+.mylife-text h6
+{
+    text-align: center;
+    font-family: hey comic;
+    color: #90604c;
+    font-size: 35px;
+    text-shadow: 3px 1px 2px black;
+}
+
+.pic-box
+{
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    margin-top: -56;
+    padding-left: 144;
+}
+
+
+/* MY LIFE WEBSITE end*/
+
+/* CONTACT ME WEBSITE start*/
+
+.contactsme-tab
+{
+    height: 420px;
+    width: 100%;
+    font-size: 12px;
+    font-family: candy beans;
+    color: #6b443e;
+    letter-spacing: 1mm;
+}
+
+
+.contact-image
+{
+
+   width: 23%;
+   position:absolute;
+   left: 250;
+   top: 20%;
+   bottom: 70%;
+   border-radius: 50px;
+}
+
+.contactme-text h1
+{
+    text-align: right;
+    font-family: corbel;
+    color: #90604c;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 70;
+    padding-right: 300;
+    letter-spacing: 0;
+}
+
+
+
+.button1
+{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    align-items: center;
+    bottom: 45%;
+    right: 28%;
+}
+
+.button1 a i
+{
+    font-size: 35px;
+    color: #c0a290;
+    transition: 0.3s;
+}
+
+.button1 a i:hover
+{
+    color: #AA6F5D;
+}
+
+.button2
+{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    align-items: center;
+    bottom: 35%;
+    right: 28%;
+}
+
+.button2 a i
+{
+    font-size: 35px;
+    color: #c0a290;
+    transition: 0.3s;
+}
+
+.button2 a i:hover
+{
+    color: #AA6F5D;
+}
+
+.button3
+{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    align-items: center;
+    bottom: 25%;
+    right: 28%;
+}
+
+.button3 a i
+{
+    font-size: 35px;
+    color: #c0a290;
+    transition: 0.3s;
+}
+
+.button3 a i:hover
+{
+    color: #AA6F5D;
+}
+
+.button4
+{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    align-items: center;
+    bottom: 15%;
+    right: 28%;
+}
+
+.button4 a i
+{
+    font-size: 35px;
+    color: #c0a290;
+    transition: 0.3s;
+}
+
+.button4 a i:hover
+{
+    color: #AA6F5D;
+}
+
+.button5
+{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    align-items: center;
+    bottom: 55%;
+    right: 28%;
+}
+
+.button5 a i
+{
+    font-size: 35px;
+    color: #c0a290;
+    transition: 0.3s;
+}
+
+.button5 a i:hover
+{
+    color: #AA6F5D;
+}
+/* CONTACT WEBSITE end*/
+
+/* ALBUM WEBSITE start*/
+
+.album-tab
+{
+    height: 200px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.contentgallery h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    color: rgb(123, 85, 34);
+    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+ }
+ .container{
+    
+    margin: auto;
+  
+    overflow: auto;
+    padding-top: 50;
+    padding-left: 60;
+   
+ }
+ .gallery{
+    margin: 2px;
+    float: left;
+    width: 235.5px;
+ }
+ .gallery img{
+    width: 100%;
+    height: auto;
+    
+ }
+ 
+ .desc{
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+ }
+ .footer {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding:0 5%;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    position:fixed;
+    left: 0;
+  }
+  
+.footer a 
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+  .experiences-image
+{
+    align-items: center;
+    width: 15%;
+    position:absolute;
+    right: 37%;
+    top: 13%;
+    border-radius: 5px;
+}
+  
+  .experiences-image1
+{
+    align-items: center;
+    width: 15%;
+    position:absolute;
+    right: 18%;
+    top: 13%;
+    border-radius: 5px;
+}
+
+  .experiences-image2
+{
+    align-items: center;
+    width: 15%;
+    position:absolute;
+    right: 37%;
+    top: 58%;
+    border-radius: 5px;
+}
+  
+  .experiences-image3
+{
+    align-items: center;
+    width: 15%;
+    position:absolute;
+    right: 18%;
+    top: 58%;
+    bottom: 70%;
+    border-radius: 5px;  
+}
+
+/* ALBUM WEBSITE end*/
